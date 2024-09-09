@@ -23,6 +23,9 @@ stop.addEventListener('click', ()=>{
 
 reset.addEventListener('click', ()=>{
     clearInterval(timerID);
+    milliSec = 0;
+    secs = 0;
+    mins = 0;
     timeDisplay.innerHTML = `00:00:00`;
 })
 
