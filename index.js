@@ -44,7 +44,7 @@ function startTime() {
 
 
     let milliSecString = milliSec < 10 ? `0${milliSec}` : milliSec;
-    let secString = secs < 60 ? `0${secs}` : secs;
+    let secString = secs < 10 ? `0${secs}` : secs;
     let minString = mins < 10 ? `0${mins}` : mins;
     
     // if(milliSec < 10) {
